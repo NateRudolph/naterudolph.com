@@ -1,0 +1,4 @@
+baseURL = "https://naterudolph.com/"
+languageCode = "en-us"
+title = "Personal Portfolio of Nate Rudolph"
+theme = "v1"

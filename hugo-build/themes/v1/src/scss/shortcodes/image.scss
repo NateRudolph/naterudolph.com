@@ -1,0 +1,14 @@
+.flickity-viewport {
+  transition: height 0.5s ease;
+  margin-bottom: 30px;
+}
+
+.flickity-prev-next-button {
+  background: transparent;
+  border-radius: 5px;
+  height: 54px;
+
+  &:hover {
+    background-color: $white;
+  }
+}

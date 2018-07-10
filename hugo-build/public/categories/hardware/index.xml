@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hardware on Personal Portfolio of Nate Rudolph</title>
+    <link>https://naterudolph.com/categories/hardware/</link>
+    <description>Recent content in Hardware on Personal Portfolio of Nate Rudolph</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://naterudolph.com/categories/hardware/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>21st Century Moviola</title>
+      <link>https://naterudolph.com/posts/2011-11-14-21st-century-moviola/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2011-11-14-21st-century-moviola/</guid>
+      <description>I’ve been working this weekend on mapping out all the technical aspects of the project so that I can keep tabs on my progress and foresee any major obstacles. At this point, I’m starting with the main interaction the editor will have: the hand-crank. Below is the basic workflow the machine will have from the hand-crank to the projector. I’ll be scouting out rotary encoders this week and starting to compile all the code needed to then attach to the video speed.</description>
+    </item>
+    
+    <item>
+      <title>Arduino LED Keyboard Interaction</title>
+      <link>https://naterudolph.com/posts/2011-10-10-aruino-led-keyboard-interaction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2011-10-10-aruino-led-keyboard-interaction/</guid>
+      <description>{% include vimeoPlayer.html align=&amp;ldquo;left&amp;rdquo; id=&amp;ldquo;30289104&amp;rdquo; %}
+I wrote some code in Arduino (adapted from code I found in a forum at: arduino.cc/​cgi-bin/​yabb2/​YaBB.pl?num=1241706282) that allows the user to turn a yellow LED on (by pressing Q) and off (by pressing W).
+I tried to get A and S to work the other red LED but for some reason it wasn’t responding. Something to revisit. I didn’t realize until I got into things that the Arduino board isn’t actually always listening to the keyboard input like a Processing sketch would be.</description>
+    </item>
+    
+    <item>
+      <title>Cloudgrave</title>
+      <link>https://naterudolph.com/posts/2012-12-20-cloudgrave/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2012-12-20-cloudgrave/</guid>
+      <description>My brother created an amazing children’s story for his new daughter featuring a lovable storm cloud named Cloudgrave. When fall came around I knew exactly what I wanted to make for my new niece for her first Christmas, a stuffed animal version of the character to go along with story time.
+In school I had been playing around with extremely small and low-power microcontrollers and I realized I could easily implant the center cloud portion with all the electronics necessary to make the lighting bolt glow.</description>
+    </item>
+    
+    <item>
+      <title>Farm Table</title>
+      <link>https://naterudolph.com/posts/2012-06-04-farm-table/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2012-06-04-farm-table/</guid>
+      <description>{% include imageEmbed.html align=&amp;ldquo;center&amp;rdquo; path=&amp;ldquo;farmTable/farmTable_banner.jpg&amp;rdquo; %}
+After grad school I was pretty sick of sitting behind a computer: writing papers, preparing presentations, waiting for renders. To remedy, I decided to build something completely analog. No arduino, no wiring or programming. The desk I had been using had gone through 3 moves from different apartments and was falling apart so I decided to build a new one. I knew I was going to be moving again so I wanted to build something sturdy, but easy to disassemble and pack.</description>
+    </item>
+    
+    <item>
+      <title>Fish Freedom</title>
+      <link>https://naterudolph.com/posts/2012-05-13-fish-freedom-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2012-05-13-fish-freedom-project/</guid>
+      <description>{% include vimeoPlayer.html id=&amp;ldquo;42097737&amp;rdquo; %}
+Fish Freedom is a mobile platform that allows a pet fish to control its movements across an environment. Using a webcam with blob detection software to provide navigation, two servomotors drive a vehicle that houses the fish tank and power supply.
+The webcam provides a constant feed of where the fish is located in the tank and drives the fish in the appropriate direction, giving the fish the ability to decide the direction and speed of the vehicle’s movements.</description>
+    </item>
+    
+    <item>
+      <title>Fish Freedom: Car test</title>
+      <link>https://naterudolph.com/posts/2012-04-18-fish-freedom-car-test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2012-04-18-fish-freedom-car-test/</guid>
+      <description>{% include vimeoPlayer.html id=&amp;ldquo;40611331&amp;rdquo; %}</description>
+    </item>
+    
+    <item>
+      <title>Fish Freedom: Early Prototype</title>
+      <link>https://naterudolph.com/posts/2011-12-18-fish-freedom-early-prototype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2011-12-18-fish-freedom-early-prototype/</guid>
+      <description>{% include vimeoPlayer.html id=&amp;ldquo;33871946&amp;rdquo; %}</description>
+    </item>
+    
+    <item>
+      <title>Fish Freedom: Early Prototype</title>
+      <link>https://naterudolph.com/posts/2012-05-22-fish-freedom-early-tests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2012-05-22-fish-freedom-early-tests/</guid>
+      <description>{% include vimeoPlayer.html id=&amp;ldquo;33871946&amp;rdquo; %}</description>
+    </item>
+    
+    <item>
+      <title>Fish Freedom: Software Test</title>
+      <link>https://naterudolph.com/posts/2012-04-18-fish-freedom-software-test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2012-04-18-fish-freedom-software-test/</guid>
+      <description>{% include vimeoPlayer.html id=&amp;ldquo;40616568&amp;rdquo; %}</description>
+    </item>
+    
+    <item>
+      <title>Fish Freedom: Trailer</title>
+      <link>https://naterudolph.com/posts/2012-05-04-fish-freedom-trailer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2012-05-04-fish-freedom-trailer/</guid>
+      <description>{% include vimeoPlayer.html id=&amp;ldquo;41583365&amp;rdquo; %}</description>
+    </item>
+    
+    <item>
+      <title>Flex Sensor Glove Prototype</title>
+      <link>https://naterudolph.com/posts/2011-10-14-flex-sensor-glove-prototype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2011-10-14-flex-sensor-glove-prototype/</guid>
+      <description>{% include vimeoPlayer.html id=&amp;ldquo;30563536&amp;rdquo; %}
+Ever since I opened up the Arduino Starter Kit I’ve wanted to figure out how to use the Flex Sensor. It seemed like such a unique way to interface with electronics and when I started doing some digging I saw that one of the very few examples of it in products was the old Nintendo Powerglove.
+I’m looking forward to trying to make something a little more usable than the powerglove.</description>
+    </item>
+    
+    <item>
+      <title>FlexSensor Glove: Early Tests</title>
+      <link>https://naterudolph.com/posts/2011-10-26-flex-sensor-glove-early-tests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2011-10-26-flex-sensor-glove-early-tests/</guid>
+      <description>{% include vimeoPlayer.html id=&amp;ldquo;31157135&amp;rdquo; %}
+I’ve made some pretty significant steps in the FlexSensor Glove since the last post. The LED is now mounted to the finger tip, and the cords are soldered and wrapped neatly coming out of the glove to keep things from getting shorted or confusing when hooking up to the Arduino.
+The code itself also has added the video element. My main goal was to be able to virtually click and drag things with the glove using the webcam as a point of entry.</description>
+    </item>
+    
+    <item>
+      <title>Four Steps of TOTA</title>
+      <link>https://naterudolph.com/posts/2013-05-19-four-steps-of-tota/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2013-05-19-four-steps-of-tota/</guid>
+      <description>{% include vimeoPlayer.html id=&amp;ldquo;66535232&amp;rdquo; %}
+A motion graphic piece I put together for the MFA Design &amp;amp; Technology Thesis show.
+It outlines the four major steps in creating with the Toys of the Apocalypse world I created for my thesis while at Parsons.
+{% include imageEmbed.html align=&amp;ldquo;center&amp;rdquo; path=&amp;ldquo;fourStepsOfTOTA/TOTAbooth.jpg&amp;rdquo; alt=&amp;ldquo;Booth for Toys of the Apocalypse&amp;rdquo; %}</description>
+    </item>
+    
+    <item>
+      <title>Kitchen Shelf</title>
+      <link>https://naterudolph.com/posts/2011-07-14-kitchen-shelf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2011-07-14-kitchen-shelf/</guid>
+      <description>{% include imageEmbed.html path=&amp;ldquo;kitchenShelf/feature-1280x540.jpg&amp;rdquo; %}
+After moving to an amazing loft apartment in Brooklyn my roommates and I quickly discovered we needed a lot more storage space for the kitchen. As with any New York apartment, space was tight and there was really only one way to go: up.
+I wanted something cheap, modular, and sturdy. That last one meant Ikea wasn’t an option, and anything we might have found at thrift stores on on the sidewalk wouldn’t fit our specific size requirements.</description>
+    </item>
+    
+    <item>
+      <title>Manual Reel Cranks</title>
+      <link>https://naterudolph.com/posts/2011-12-06-manual-reel-cranks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2011-12-06-manual-reel-cranks/</guid>
+      <description>I was able to pick up some actual Moviola parts on the worldwide flea market that is eBay. After having spent countless hours trying to wrap my head around the mystery of arrays and classes and strings it was refreshing to feel something real in my hands. I was able to take it apart and understand the entire mechanism in a few minutes.
+{% include imageEmbed.html align=&amp;ldquo;center&amp;rdquo; path=&amp;ldquo;manualReelCranks/reelCranks1.jpg&amp;rdquo; %}
+{% include imageEmbed.</description>
+    </item>
+    
+    <item>
+      <title>Pipe Holders</title>
+      <link>https://naterudolph.com/posts/2014-10-02-pipe-holders/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2014-10-02-pipe-holders/</guid>
+      <description>{% include imageEmbed.html align=&amp;ldquo;left&amp;rdquo; path=&amp;ldquo;pipeHolders/pipeHolder(both).jpg&amp;rdquo; alt=&amp;ldquo;Two Pipe Holders&amp;rdquo; %}
+I had some leftover wood from another project and decided to try and make a quick pipe holder.
+The red oak is such a hard wood it’s great for carving even if it takes a little bit longer most. It was helpful in this case because I wanted it to custom fit my favorite pipe and I could make very small changes with the dremel as I got closer and closer to the right fit.</description>
+    </item>
+    
+    <item>
+      <title>Play Object</title>
+      <link>https://naterudolph.com/posts/2012-03-01-play-object/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2012-03-01-play-object/</guid>
+      <description>(To see the current iteration of this project check out the video documentation)
+This week’s assignment for Major Studio was to create a ‘play object’ that had some sort of game or interactive experience, and included at least 4 buttons, 4 LEDs, and speaker output. My initial thought was to have a 3×3 board with tiles that could be rotated to complete different circuits, each tile space with 2 LEDs.</description>
+    </item>
+    
+    <item>
+      <title>Play Object Video</title>
+      <link>https://naterudolph.com/posts/2012-03-06-play-object-video/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2012-03-06-play-object-video/</guid>
+      <description>{% include vimeoPlayer.html align=&amp;ldquo;left&amp;rdquo; id=&amp;ldquo;37747188&amp;rdquo; %}
+The connections on the tiles need to be made more stable so you don’t have to hold it down to ensure it’s connected. Right now the top left washers cycle through the speed of the beat, and get reset to zero. Eventually I’d like to made it so the speed fluctuates up and down, but for now it’s still an easy way to lock into a speed you want to use.</description>
+    </item>
+    
+    <item>
+      <title>Rotary Encoders in oF</title>
+      <link>https://naterudolph.com/posts/2011-12-03-rotary-encoders-in-of/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2011-12-03-rotary-encoders-in-of/</guid>
+      <description>{% include imageEmbed.html align=&amp;ldquo;left&amp;rdquo; path=&amp;ldquo;rotaryEncodersInOf/photo.jpg&amp;rdquo; %}
+This week has been an insane crash course in rotary encoders, Arduino and oF coding. I thought I had a handle on most of the simple types of circuits I would need for this project in Arduino, but working with serial communication between Arduino and oF proved to be quite the challenge. After some help from the amazing faculty at Parsons (we were emailing snippets of code from 2am – 4am…) we finally got things to start talking to each other.</description>
+    </item>
+    
+    <item>
+      <title>Speaker Cabinet</title>
+      <link>https://naterudolph.com/posts/2007-03-12-speaker-cabinet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2007-03-12-speaker-cabinet/</guid>
+      <description>In college I bought a soldering iron and started taking all sorts of things apart and rewiring them. A very small percentage of those projects actually were finished, but it was always a fun experience. One such project was a small speaker cabinet I built to hang on the wall. The speakers were taken from a small toy keyboard and the wood from an old serving tray from Target.
+{% include imageEmbed.</description>
+    </item>
+    
+    <item>
+      <title>Squares of the Impending</title>
+      <link>https://naterudolph.com/posts/2011-10-06-squares-of-the-impending/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2011-10-06-squares-of-the-impending/</guid>
+      <description>{% include vimeoPlayer.html align=&amp;ldquo;left&amp;rdquo; id=&amp;ldquo;30089634&amp;rdquo; %}
+For the past several weeks our Major Studio class has been exploring the “Zone of the Impending”, a section of the Translife exhibit hosted by MediartChina.
+Taken from the Translife statement, Zone of the Impending, “…brings into focus concerns about ecosystems and environments upon which all life depends, calling attention to the plight of ecological disruption through creative inspirations via artists’ great imaginations and ingenious strategies to engage us actively in environmental protection and in the reconstitution of a healthy ecosphere, thereby advocating for a new consciousness of shared responsibility and citizen participation.</description>
+    </item>
+    
+    <item>
+      <title>The Usual</title>
+      <link>https://naterudolph.com/posts/2010-02-16-the-usual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2010-02-16-the-usual/</guid>
+      <description>{% include vimeoPlayer.html id=&amp;ldquo;9508157&amp;rdquo; %}
+As a part of a show exhibited at NYCAMS in New York City, I built a pair of boxes to mimic a Starbucks drive thru. The “order” box had a speaker and microphone installed that would playback a loop of ambient tones mixed with noise from the gallery floor. The “pickup” window had a TV installed that looped an animation made by myself and Amy Wilk.</description>
+    </item>
+    
+    <item>
+      <title>Videola</title>
+      <link>https://naterudolph.com/posts/2011-12-20-videola/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://naterudolph.com/posts/2011-12-20-videola/</guid>
+      <description>I received my undergrad in what is called “Film Studies,” because a majority of the movies we watched and wrote about were shot on film. I also grew up in what will be the last generation to have seen a major motion picture premiere that was originally shot and edited on film. As I re-read Murch’s book, “In Blink of an Eye” this semester I was struck by how it knit together my previous education of film with my new path as a student of design and technology.</description>
+    </item>
+    
+  </channel>
+</rss>

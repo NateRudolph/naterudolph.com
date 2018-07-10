@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Portfolio of Nate Rudolph</title>
+  
+  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body> <div class="header">
+    <div class="header__video-link"></div>
+    <h1 class="header__title title">I'm a designer & developer
+        <br>of web, video, and things</h1>
+</div>
+
+<div class="single-page-content">
+    <h1 class="single-page__title">Git Aliases</h1>
+    <h2>February 3, 2018</h2>
+    <p>It&rsquo;s been my experience that with most new things you learn, even if it&rsquo;s a gradual process, there&rsquo;s a distinct moment when it all clicks. I can remember sitting on the couch running git commands from the terminal to revert my work and just marveling at how cool it felt.</p>
+
+<p>That wore off pretty quickly, and after typing <code>git status</code> for the 16,423,325th time I decided I was ready to commit to some git aliases.</p>
+
+<p>For the first 5 I settled on the ones I use the most: <code>status</code>, <code>push</code>, <code>pull</code>, <code>log</code>, and of course <code>commit</code>. Creating the aliases was actually simpler than I had imagined when I first heard it was a thing. Just typing each of these lines one at a time and you&rsquo;ll have all you need to get up and running.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git config --global alias.st status
+git config --global alias.ps push
+git config --global alias.p pull
+git config --global alias.lo <span style="color:#e6db74">&#34;log --oneline&#34;</span>
+git config --global alias.ca <span style="color:#e6db74">&#34;commit -am&#34;</span></code></pre></div>
+
+<p>After having used those for a few days I Googled around a bit to see how other people were using them. As with most things git and bash, there are infinite rabbit holes to go down. <a href="http://durdn.com/blog/2012/11/22/must-have-git-aliases-advanced-examples/">This article</a> in particular made me realize there&rsquo;s still plenty to learn that&rsquo;s way over my head. I did grab one from that site that I liked, to print out all the aliases I have on the global space, as I&rsquo;m sure I&rsquo;ll start to forget them occasionally as list grows:</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">git config --global alias.la <span style="color:#e6db74">&#34;!git config -l | grep alias | cut -c 7-&#34;</span></code></pre></div>
+
+<p>I actually had an issue just pasting that one into Terminal, something to do with the ! getting escaped maybe? You can open the file where these are actually getting saved by running <code>open $HOME/.gitconfig</code> which has all the global git settings. Pasting the quoted portion after the <code>la</code> fixed the issue for me so I can now run <code>git la</code> to print out the list of aliases.</p>
+
+    <p>
+        <a href="https://naterudolph.com/">Home</a>
+    </p>
+</div>
+
+<script src="https://naterudolph.com//js/all.js"></script>
+</body>
+</html>

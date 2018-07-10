@@ -1,0 +1,29 @@
+// =============================================================================
+// main.scss
+// -----------------------------------------------------------------------------
+// Entry point to transpile to main.css.
+// Only for imports and comments!
+// =============================================================================
+
+// Vendor Styles
+@import "vendor/normalize";
+@import "vendor/bourbon/bourbon";
+@import "vendor/neat/neat";
+@import "vendor/flickity";
+@import "utils/fonts";
+
+// Base Styles and utilities
+@import "base/base";
+@import "utils/utils";
+
+// Component styles
+@import "components/components";
+
+// Module Styles
+@import "modules/modules";
+
+// Page-specific styles
+@import "pages/index";
+
+// Shortcode styles
+@import "shortcodes/shortcodes";

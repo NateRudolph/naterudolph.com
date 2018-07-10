@@ -1,0 +1,48 @@
+{{ partial "site-header.html" . }} {{ partial "header.html" . }}
+
+<div class="modal-background modal-background--hide"></div>
+
+<div class="home-page-content">
+
+  <section class="featured">
+    {{ range .Data.Pages }} {{ if .Params.promo }}
+    <a href="{{.Permalink}}">
+      <div class="featured__item">
+        <div class="featured__title-wrapper">
+          <div class="featured__title">
+            <span>{{.Title}}</span>
+          </div>
+        </div>
+        <img src="./img/{{ .Params.featuredImage }}" alt="">
+      </div>
+    </a>
+    {{ end }} {{ end }}
+  </section>
+
+  <div class="clearfix"></div>
+
+  <section class="blog-list">
+    {{ range first 5 (where .Data.Pages "Params.visible" "!=" "false") }}
+    <a href="{{.Permalink}}">
+      <span class="blog-list__date">{{ .Date.Format "January 1"}}</span>
+      <span class="blog-list__title">{{ .Title }}</span>
+      <span class="blog-list__summary">{{ .Summary }}</span>
+    </a>
+    {{ end }}
+  </section>
+  <a href="{{ .Site.BaseURL }}/posts">See All</a>
+
+  <section class="category-list">
+    {{ range $key, $value := .Site.Taxonomies.categories }}
+    <div class="category-list__item" style="background:url('./img/{{ $key }}-category.jpg'); background-size: cover;">
+      <a href="/categories/{{ $key }}">
+        <span class="category-list__item-title">{{ $key }}</span>
+      </a>
+    </div>
+    {{ end }}
+  </section>
+
+
+</div>
+
+{{ partial "footer.html" . }}

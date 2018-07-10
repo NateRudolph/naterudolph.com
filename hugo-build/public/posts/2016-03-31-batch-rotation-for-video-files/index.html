@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Portfolio of Nate Rudolph</title>
+  
+  <link rel="stylesheet" href="css/main.min.css">
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body> <div class="header">
+    <div class="header__video-link"></div>
+    <h1 class="header__title title">I'm a designer & developer
+        <br>of web, video, and things</h1>
+</div>
+
+<div class="single-page-content">
+    <h1 class="single-page__title">Batch rotation for video files</h1>
+    <h2>January 1, 0001</h2>
+    
+
+
+
+
+
+
+
+<div class="carousel" data-flickity='{ "contain": true, "imagesLoaded": true, "percentPosition": true, "pageDots": false, "adaptiveHeight": true, "wrapAround": true }'>
+    <img src="/img/videola/videola.jpg" alt="">
+    <img src="/img/videola/videolaBanner.jpg" alt="">
+</div>
+
+<link rel="stylesheet" href="/css/vendor/flickity.css">
+<script src="/js/vendor/flickity.min.js"></script>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">&lt;<span style="color:#f92672">section</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;main&#34;</span>&gt;
+  &lt;<span style="color:#f92672">div</span>&gt;
+   &lt;<span style="color:#f92672">h1</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;title&#34;</span>&gt;{{ .Title }}&lt;/<span style="color:#f92672">h1</span>&gt;
+    {{ range .Data.Pages }}
+        {{ .Render &#34;summary&#34;}}
+    {{ end }}
+  &lt;/<span style="color:#f92672">div</span>&gt;
+&lt;/<span style="color:#f92672">section</span>&gt;</code></pre></div>
+
+<p>I recently had a collection of videos I wanted to start editing that needed to be rotated by 180 degrees because they were originally shot on a Redrock lens that flips the image upside down. The files were all uncompressed movs so I wanted a way to also convert everything to mp4 in one step.</p>
+
+<p>In days past I would open up Premiere and make a new sequence for each one, rotate the video by hand, and then render it out with the same name in a different directory. The process was always a bit daunting because there were several dozen and I always assumed there would be a better way to do it.</p>
+
+<p>There is!</p>
+
+<p>{% highlight sh %}</p>
+
+<p>#!/bin/bash</p>
+
+<h1 id="by-nate-rudolph">by Nate Rudolph</h1>
+
+<h1 id="uses-ffmpeg-to-rotate-a-collection-of-videos-mov-by-180-degrees">Uses ffmpeg to rotate a collection of videos (mov) by 180 degrees</h1>
+
+<h1 id="loop-through-all-movs-in-current-directory">Loop through all movs in current directory</h1>
+
+<p>for vid in *.mov ; do</p>
+
+<p># Create variable for new filename with new extension
+  newfilename=${vid%.*}_r.mp4</p>
+
+<p># Use original video as input, rotate by PI (180 degrees), save as new file
+  ffmpeg -i $vid -vf &ldquo;rotate=PI:bilinear=0&rdquo; $newfilename</p>
+
+<p>done</p>
+
+<p>{% endhighlight %}</p>
+
+<p><a href="https://gist.github.com/NateRudolph/b54f95c0f735df9af5194dd23990074e">(Link on Github)</a></p>
+
+<p>This assumes you have ffmpeg installed, which can be done relatively easily with something like Homebrew. Check out <a href="http://www.renevolution.com/how-to-install-ffmpeg-on-mac-os-x/">this link</a> if none of that makes sense.</p>
+
+<p>Enjoy!</p>
+
+    <p>
+        <a href="https://naterudolph.com/">Home</a>
+    </p>
+</div>
+
+<script src="https://naterudolph.com//js/all.js"></script>
+</body>
+</html>

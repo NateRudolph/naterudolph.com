@@ -1,0 +1,25 @@
+<!-- <figure class='media media--{{ .Get "layout" }}'>
+    <img src='/img/{{ .Get "src" }}' alt="">
+    <figcaption>{{ .Get "caption" }}</figcaption>
+</figure> -->
+
+<!-- 
+    Include some logic that switches
+    this template to an owl carousel
+    if the src is an array
+ -->
+
+<!-- <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "pageDots": false }'>
+    <div class="carousel-cell">
+    </div>
+    <div class="carousel-cell">
+    </div>
+</div> -->
+
+<div class="carousel" data-flickity='{ "contain": true, "imagesLoaded": true, "percentPosition": true, "pageDots": false, "adaptiveHeight": true, "wrapAround": true }'>
+    <img src="/img/videola/videola.jpg" alt="">
+    <img src="/img/videola/videolaBanner.jpg" alt="">
+</div>
+
+<link rel="stylesheet" href="/css/vendor/flickity.css">
+<script src="/js/vendor/flickity.min.js"></script>

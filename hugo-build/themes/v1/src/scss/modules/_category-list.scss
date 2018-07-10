@@ -1,0 +1,68 @@
+/*
+  List 6 categories with thumbnails
+    .category-list
+    .category-list__item
+    .category-list__item-title
+*/
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: $base-vertical-margin 0 $base-vertical-margin*3;
+}
+
+.category-list__item {
+  position: relative;
+  width: 48%;
+
+  background-size: cover;
+
+  margin-bottom: $base-vertical-margin;
+
+  transition: all 0.3s ease;
+
+  &::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  &:hover {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  }
+
+  &:hover .category-list__item-title {
+    letter-spacing: 0.08em;
+  }
+}
+
+@include media($medium-screen-up) {
+  .category-list__item {
+    width: 30%;
+  }
+}
+
+@include media($large-screen-up) {
+  .category-list__item {
+    width: 15%;
+  }
+}
+
+.category-list__item-title {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding-top: 38%;
+
+  font-family: "Raleway";
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  font-size: 1em;
+  color: $white;
+
+  text-transform: uppercase;
+  text-align: center;
+
+  transition: all 0.3s ease;
+}

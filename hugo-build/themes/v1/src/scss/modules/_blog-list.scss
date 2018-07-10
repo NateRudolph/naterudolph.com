@@ -1,0 +1,48 @@
+/*
+  List of 5 most recent blog
+   .blog-list
+   .blog-list__date
+   .blog-list__title
+   .blog-list__summary
+*/
+
+.blog-list {
+  line-height: $base-font-size;
+  margin: $base-vertical-margin auto;
+}
+
+.blog-list a {
+  display: block;
+
+  float: left;
+  width: 50%;
+
+  margin-bottom: $base-vertical-margin * 2;
+
+  &:hover .blog-list__title {
+    text-decoration: underline;
+  }
+}
+
+.blog-list__date,
+.blog-list__title {
+  display: block;
+  color: $black;
+}
+
+.blog-list__date {
+  font-family: "Raleway";
+  font-size: 0.75em;
+  display: block;
+  margin-bottom: 0;
+}
+
+.blog-list__title {
+  font-family: "Playfair Display";
+  font-size: 1.25em;
+  margin-bottom: $base-vertical-margin / 2;
+}
+
+.blog-list__summary {
+  color: $black;
+}
