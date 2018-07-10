@@ -652,6 +652,24 @@ figcaption {
   margin: 0 0;
   clear: both; }
 
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.8;
+  z-index: 5;
+  pointer-events: all;
+  transition: opacity 0.4s ease;
+  cursor: pointer; }
+
+.modal-background--hide {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.4s ease; }
+
 @media screen and (min-width: 900px) {
   .media.media--break-right {
     width: 50%;
@@ -776,39 +794,82 @@ hr {
    .header
    .header__title
    .header__video-link
-   .header__video-link--open
+   .header__video-btn
+   .header__video-player
 */
 .header {
-  width: 50%;
+  width: 25%;
   margin: 15px auto 30px; }
 
 .header__title {
   display: inline-block;
   position: absolute;
-  padding-top: 30px;
+  padding-top: 28px;
   padding-left: 20px; }
 
 .header__video-link {
   display: inline-block;
+  position: relative;
   width: 120px;
   height: 120px;
-  background-color: teal; }
+  background: url("../img/profile-pic.jpg");
+  background-size: cover;
+  overflow: hidden; }
+
+.header__video-btn {
+  display: inline-block;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 30px;
+  left: 30px;
+  margin: auto; }
+  .header__video-btn svg {
+    -ms-transform: scale(3.5);
+        transform: scale(3.5);
+    fill: #fff;
+    opacity: 0.65;
+    transition: transform 0.3s ease; }
+    .header__video-btn svg:hover {
+      -ms-transform: scale(4.5);
+          transform: scale(4.5);
+      opacity: 0.9;
+      cursor: pointer; }
+
+.header__video-player {
+  position: fixed;
+  bottom: -50%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  z-index: 10;
+  transition: all 0.3s ease; }
+
+.header__video-player--show {
+  bottom: 25%;
+  transition: all 0.3s ease; }
 
 /*
   List of 5 most recent blog
    .blog-list
    .blog-list__date
    .blog-list__title
+   .blog-list__summary
 */
 .blog-list {
-  line-height: 21px; }
+  line-height: 21px;
+  margin: 15px auto; }
 
 .blog-list a {
-  display: block; }
+  display: block;
+  float: left;
+  width: 50%;
+  margin-bottom: 30px; }
   .blog-list a:hover .blog-list__title {
     text-decoration: underline; }
 
-.blog-list__date, .blog-list__title {
+.blog-list__date,
+.blog-list__title {
   display: block;
   color: #2c2c2c; }
 
@@ -820,7 +881,11 @@ hr {
 
 .blog-list__title {
   font-family: "Playfair Display";
-  margin-bottom: 30px; }
+  font-size: 1.25em;
+  margin-bottom: 7.5px; }
+
+.blog-list__summary {
+  color: #2c2c2c; }
 
 /*
   List 6 categories with thumbnails

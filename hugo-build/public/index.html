@@ -13,117 +13,55 @@
 </head>
 
 <body> <div class="header">
-    <div class="header__video-link"></div>
+    <div class="header__video-link">
+        <div class="header__video-btn">
+            <svg width="60px" height="60px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+                x="0px" y="0px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+                <path d="M243.5,324.5c0-9.9,7.168-14.228,15.929-9.617l139.143,73.233c8.761,4.611,8.761,12.156,0,16.767   L259.43,478.115c-8.761,4.609-15.929,0.284-15.929-9.616L243.5,324.5z"
+                />
+            </svg>
+        </div>
+    </div>
     <h1 class="header__title title">I'm a designer & developer
         <br>of web, video, and things</h1>
+
+    <iframe class="header__video-player" src="https://player.vimeo.com/video/42970770" width="640" height="360" frameborder="0"
+        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 </div>
+
+<div class="modal-background modal-background--hide"></div>
 
 <div class="home-page-content">
 
   <section class="featured">
-     
-    <a href="https://naterudolph.com/posts/2016-04-07-git-aliases/">
-      <div class="featured__item">
-        <div class="featured__title-wrapper">
-          <div class="featured__title">
-            <span>Git Aliases</span>
-          </div>
-        </div>
-        <img src="./img/test.jpg" alt="">
-      </div>
-    </a>
-                                                                                          
-    <a href="https://naterudolph.com/posts/2016-02-24-hand/">
-      <div class="featured__item">
-        <div class="featured__title-wrapper">
-          <div class="featured__title">
-            <span>Morning Sketch: Hand</span>
-          </div>
-        </div>
-        <img src="./img/hand.jpg" alt="">
-      </div>
-    </a>
-                                                                        
-    <a href="https://naterudolph.com/posts/2011-12-20-videola/">
-      <div class="featured__item">
-        <div class="featured__title-wrapper">
-          <div class="featured__title">
-            <span>Videola</span>
-          </div>
-        </div>
-        <img src="./img/videola/videola.jpg" alt="">
-      </div>
-    </a>
-     
+        
   </section>
 
   <div class="clearfix"></div>
 
   <section class="blog-list">
     
-    <a href="https://naterudolph.com/posts/2016-04-07-git-aliases/">
-      <span class="blog-list__date">February 2</span>
-      <span class="blog-list__title">Git Aliases</span>
-    </a>
-    
-    <a href="https://naterudolph.com/posts/2016-02-12-wall/">
-      <span class="blog-list__date">February 2</span>
-      <span class="blog-list__title">Morning Sketch: Wall</span>
-    </a>
-    
-    <a href="https://naterudolph.com/posts/2013-10-27-ad-agency-promo/">
-      <span class="blog-list__date">October 10</span>
-      <span class="blog-list__title">Ad Agency Promo</span>
-    </a>
-    
-    <a href="https://naterudolph.com/posts/2017-books/">
+    <a href="https://naterudolph.com/posts/2016-02-14-mountain/">
       <span class="blog-list__date">January 1</span>
-      <span class="blog-list__title"></span>
+      <span class="blog-list__title">Morning Sketch: Mountain</span>
+      <span class="blog-list__summary">{% include imageEmbed.html align=&ldquo;center&rdquo; path=&ldquo;morningSketches/mountainPencilSketch.jpg&rdquo; alt=&ldquo;Mountain sketch&rdquo; %}</span>
     </a>
     
-    <a href="https://naterudolph.com/posts/2011-11-14-21st-century-moviola/">
+    <a href="https://naterudolph.com/posts/2016-02-15-tree/">
       <span class="blog-list__date">January 1</span>
-      <span class="blog-list__title">21st Century Moviola</span>
+      <span class="blog-list__title">Morning Sketch: Tree</span>
+      <span class="blog-list__summary">{% include imageEmbed.html align=&ldquo;center&rdquo; path=&ldquo;morningSketches/tree.jpg&rdquo; alt=&ldquo;Tree Sketch&rdquo; %} Source</span>
     </a>
     
-    <a href="https://naterudolph.com//posts">See All</a>
   </section>
+  <a href="https://naterudolph.com//posts">See All</a>
 
   <section class="category-list">
-    
-    <div class="category-list__item" style="background:url('./img/code-category.jpg'); background-size: cover;">
-      <a href="/categories/code">
-        <span class="category-list__item-title">code</span>
-      </a>
-    </div>
-    
-    <div class="category-list__item" style="background:url('./img/hardware-category.jpg'); background-size: cover;">
-      <a href="/categories/hardware">
-        <span class="category-list__item-title">hardware</span>
-      </a>
-    </div>
-    
-    <div class="category-list__item" style="background:url('./img/music-category.jpg'); background-size: cover;">
-      <a href="/categories/music">
-        <span class="category-list__item-title">music</span>
-      </a>
-    </div>
     
     <div class="category-list__item" style="background:url('./img/sketches-category.jpg'); background-size: cover;">
       <a href="/categories/sketches">
         <span class="category-list__item-title">sketches</span>
-      </a>
-    </div>
-    
-    <div class="category-list__item" style="background:url('./img/video-category.jpg'); background-size: cover;">
-      <a href="/categories/video">
-        <span class="category-list__item-title">video</span>
-      </a>
-    </div>
-    
-    <div class="category-list__item" style="background:url('./img/writing-category.jpg'); background-size: cover;">
-      <a href="/categories/writing">
-        <span class="category-list__item-title">writing</span>
       </a>
     </div>
     

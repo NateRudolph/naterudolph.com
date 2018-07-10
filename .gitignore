@@ -1,3 +1,4 @@
 .DS_Store
 *.afdesign
 node_modules/
+hugo-build/public/*
