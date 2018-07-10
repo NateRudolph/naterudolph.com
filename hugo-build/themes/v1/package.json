@@ -2,7 +2,6 @@
   "name": "naterudolph",
   "version": "0.0.1",
   "description": "Hugo Theme for Personal Portfolio",
-  "author": "Savio van Hoi",
   "license": "MIT",
   "scripts": {
     "start": "gulp"
