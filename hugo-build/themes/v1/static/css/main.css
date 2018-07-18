@@ -939,10 +939,6 @@ hr {
   text-align: center;
   transition: all 0.3s ease; }
 
-.home-page-content {
-  width: 80%;
-  margin: 0 auto; }
-
 .featured__item {
   position: relative;
   float: left;

@@ -1,6 +1,9 @@
 .home-page-content {
-  width: 80%;
-  margin: 0 auto;
+  // width: 80%;
+  // margin: 0 auto;
+  @include container;
+
+  @include span(1 of 12);
 }
 
 .featured__item {
