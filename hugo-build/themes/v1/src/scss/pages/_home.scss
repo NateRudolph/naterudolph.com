@@ -1,14 +1,14 @@
 .home-page-content {
-  // width: 80%;
-  // margin: 0 auto;
-  @include container;
-
-  @include span(1 of 12);
+  width: 80%;
+  margin: 0 auto;
 }
 
 .featured__item {
   position: relative;
   float: left;
+
+  width: 100%;
+
   margin-bottom: $base-vertical-margin;
 }
 
@@ -45,11 +45,13 @@
     width: 48%;
     margin: 0 1%;
   }
+  .featured__title {
+  }
 }
 
 @include media($large-screen-up) {
   .featured__item {
-    width: 30%;
+    width: 23%;
     margin: 0 1%;
   }
 }
