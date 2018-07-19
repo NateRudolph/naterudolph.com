@@ -582,18 +582,14 @@ select {
   margin-bottom: 0.75em;
   width: 100%; }
 
-html {
+* {
   box-sizing: border-box; }
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit; }
 
 html,
 body {
   background-color: #f9f9f9;
-  height: 100%; }
+  height: 100%;
+  overflow-x: hidden; }
 
 ul {
   list-style: none;
@@ -798,8 +794,9 @@ hr {
    .header__video-player
 */
 .header {
-  width: 25%;
-  margin: 15px auto 30px; }
+  position: relative;
+  width: 80%;
+  margin: 15px auto 45px; }
 
 .header__title {
   display: inline-block;
@@ -848,6 +845,14 @@ hr {
 .header__video-player--show {
   bottom: 25%;
   transition: all 0.3s ease; }
+
+@media screen and (min-width: 600px) {
+  .header {
+    width: 50%; } }
+
+@media screen and (min-width: 900px) {
+  .header {
+    width: 30%; } }
 
 /*
   List of 5 most recent blog

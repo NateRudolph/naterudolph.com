@@ -8,8 +8,9 @@
 */
 
 .header {
-  width: 25%;
-  margin: $base-vertical-margin auto $base-vertical-margin * 2;
+  position: relative;
+  width: 80%;
+  margin: $base-vertical-margin auto $base-vertical-margin * 3;
 }
 
 .header__title {
@@ -65,4 +66,16 @@
 .header__video-player--show {
   bottom: 25%;
   transition: all 0.3s ease;
+}
+
+@include media($medium-screen-up) {
+  .header {
+    width: 50%;
+  }
+}
+
+@include media($large-screen-up) {
+  .header {
+    width: 30%;
+  }
 }

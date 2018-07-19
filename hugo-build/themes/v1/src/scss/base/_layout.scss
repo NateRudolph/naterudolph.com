@@ -1,22 +1,12 @@
-$susy: (
-  columns: 12,
-  global-box-sizing: border-box
-);
-
-html {
+* {
   box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
 }
 
 html,
 body {
   background-color: $base-background-color;
   height: 100%;
+  overflow-x: hidden;
 }
 
 ul {
