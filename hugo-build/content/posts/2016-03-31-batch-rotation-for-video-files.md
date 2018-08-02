@@ -2,6 +2,7 @@
 title: 'Batch rotation for video files'
 categories: [code]
 promo: true
+blogroll: true
 featuredImage: "hand.jpg"
 tags: redrock, lens, ffmpeg, batch, video
 ---

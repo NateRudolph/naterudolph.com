@@ -2,8 +2,9 @@
 title: 'Git Aliases'
 date: 2018-02-03T23:27:13-05:00
 categories: ["code", "video"]
-draft: true
+showOnBlogRoll: false
 featuredImage: "test.jpg"
+excerpt: "It's been my experience that with most new things you learn, even if it's a gradual process, there's a distinct moment when it all clicks..."
 ---
 
 It's been my experience that with most new things you learn, even if it's a gradual process, there's a distinct moment when it all clicks. I can remember sitting on the couch running git commands from the terminal to revert my work and just marveling at how cool it felt.

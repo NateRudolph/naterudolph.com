@@ -2,7 +2,7 @@
 title: '2017 Reading List'
 date: 2017-01-01T23:27:13-05:00
 categories: ["writing"]
-draft: true
+blogroll: true
 featuredImage: "test.jpg"
 ---
 

@@ -9,7 +9,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: $base-vertical-margin 0 $base-vertical-margin*3;
+  margin: $base-vertical-margin 0 $base-vertical-margin * 3;
 }
 
 .category-list__item {
@@ -37,13 +37,13 @@
   }
 }
 
-@include media($medium-screen-up) {
+@media #{$medium-screen-up} {
   .category-list__item {
     width: 30%;
   }
 }
 
-@include media($large-screen-up) {
+@media #{$large-screen-up} {
   .category-list__item {
     width: 15%;
   }

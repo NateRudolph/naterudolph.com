@@ -1,7 +1,8 @@
 ---
 title: "The Inventor"
+date: 2009-03-04T23:27:13-05:00
 categories: [writing]
-draft: true
+blogroll: true
 ---
 
 Jack liked to make things. His bedroom floor was covered in broken alarm clocks, old remote controls, anything that was deemed “supplies” by Grandpa Flaherty. His latest project was a helmet that told the wearer the current weather. From each hole the in the rusty colander sprouted bunches of wires that lead to headphones attached at the handles.

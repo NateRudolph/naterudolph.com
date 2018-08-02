@@ -9,8 +9,10 @@ body {
   overflow-x: hidden;
 }
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+$neat-grid: (
+  columns: 12,
+  gutter: 20px,
+  media: 1200px,
+  color: rgba(#00d4ff, 0.25),
+  direction: ltr
+);

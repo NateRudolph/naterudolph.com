@@ -68,13 +68,13 @@
   transition: all 0.3s ease;
 }
 
-@include media($medium-screen-up) {
+@media #{$medium-screen-up} {
   .header {
     width: 50%;
   }
 }
 
-@include media($large-screen-up) {
+@media #{$large-screen-up} {
   .header {
     width: 30%;
   }

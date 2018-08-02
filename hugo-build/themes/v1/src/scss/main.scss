@@ -7,17 +7,12 @@
 
 // Vendor Styles
 @import "vendor/normalize";
-@import "vendor/bourbon/bourbon";
-@import "vendor/neat/neat";
 @import "vendor/flickity";
 @import "utils/fonts";
 
 // Base Styles and utilities
 @import "base/base";
 @import "utils/utils";
-
-// Component styles
-@import "components/components";
 
 // Module Styles
 @import "modules/modules";

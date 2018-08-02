@@ -1,7 +1,5 @@
 {{ partial "site-header.html" . }} {{ partial "header.html" . }}
 
-<div class="modal-background modal-background--hide"></div>
-
 <div class="home-page-content">
 
   <section class="featured">
@@ -9,9 +7,9 @@
     <a href="{{.Permalink}}">
       <div class="featured__item">
         <div class="featured__title-wrapper">
-          <div class="featured__title">
+          <!-- <div class="featured__title">
             <span>{{.Title}}</span>
-          </div>
+          </div> -->
         </div>
         <img src="./img/{{ .Params.featuredImage }}" alt="">
       </div>
@@ -19,17 +17,17 @@
     {{ end }} {{ end }}
   </section>
 
-  <div class="clearfix"></div>
-
   <section class="blog-list">
-    {{ range first 5 (where .Data.Pages "Params.visible" "!=" "false") }}
+    {{ range first 6 .Data.Pages }}
     <a href="{{.Permalink}}">
       <span class="blog-list__date">{{ .Date.Format "January 1"}}</span>
       <span class="blog-list__title">{{ .Title }}</span>
-      <span class="blog-list__summary">{{ .Summary }}</span>
+
+      <span class="blog-list__summary">{{ .Params.excerpt }}</span>
     </a>
     {{ end }}
   </section>
+
   <a href="{{ .Site.BaseURL }}/posts">See All</a>
 
   <section class="category-list">

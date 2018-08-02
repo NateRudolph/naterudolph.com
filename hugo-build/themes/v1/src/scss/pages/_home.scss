@@ -40,16 +40,16 @@
   }
 }
 
-@include media($medium-screen-up) {
+@media #{$medium-screen-up} {
   .featured__item {
     width: 48%;
     margin: 0 1%;
   }
 }
 
-@include media($large-screen-up) {
+@media #{$large-screen-up} {
   .featured__item {
-    width: 23%;
-    margin: 0 1%;
+    width: 32%;
+    margin: 0 0.5%;
   }
 }
