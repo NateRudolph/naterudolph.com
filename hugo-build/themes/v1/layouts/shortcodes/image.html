@@ -16,10 +16,13 @@
     </div>
 </div> -->
 
-<div class="carousel" data-flickity='{ "contain": true, "imagesLoaded": true, "percentPosition": true, "pageDots": false, "adaptiveHeight": true, "wrapAround": true }'>
+<!-- <div class="carousel" data-flickity='{ "contain": true, "imagesLoaded": true, "percentPosition": true, "pageDots": false, "adaptiveHeight": true, "wrapAround": true }'>
     <img src="/img/videola/videola.jpg" alt="">
     <img src="/img/videola/videolaBanner.jpg" alt="">
 </div>
 
 <link rel="stylesheet" href="/css/vendor/flickity.css">
-<script src="/js/vendor/flickity.min.js"></script>
+<script src="/js/vendor/flickity.min.js"></script> -->
+
+<!-- <p>{{ .Get "src" }}</p> -->
+<img src='/img/{{ .Get "src" }}' class='{{ .Get "layout" }}' alt=''>
