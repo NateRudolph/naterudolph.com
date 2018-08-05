@@ -855,7 +855,8 @@ hr {
   text-align: center; }
 
 .highlight pre {
-  padding: 15px; }
+  padding: 15px;
+  overflow: visible; }
 
 .flickity-viewport {
   transition: height 0.5s ease;
