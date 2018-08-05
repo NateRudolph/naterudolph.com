@@ -8,19 +8,23 @@
 
 .blog-list {
   line-height: $base-font-size;
-  margin: $base-vertical-margin auto;
+  margin: $base-vertical-margin * 3 auto;
 }
 
 .blog-list a {
   display: block;
 
   float: left;
-  width: 50%;
+  width: 48%;
 
-  margin-bottom: $base-vertical-margin * 2;
+  margin: 0 1% $base-vertical-margin * 2 1%;
 
   &:hover .blog-list__title {
     text-decoration: underline;
+  }
+
+  @media #{$small-screen} {
+    width: 100%;
   }
 }
 
@@ -45,4 +49,13 @@
 
 .blog-list__summary {
   color: $black;
+  font-size: 0.85em;
+  opacity: 0.75;
+
+  &:hover, &:focus {
+    opacity: 1;
+  }
+  @media #{$small-screen} {
+    display: none;
+  }
 }

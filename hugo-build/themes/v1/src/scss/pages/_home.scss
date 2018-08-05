@@ -2,6 +2,10 @@
   @include tube-of-content();
 }
 
+.clearfix { 
+  clear: both;
+}
+
 .featured__item {
   position: relative;
   float: left;

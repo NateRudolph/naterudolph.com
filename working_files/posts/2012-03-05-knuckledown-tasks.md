@@ -5,7 +5,7 @@ categories: [code]
 draft: true
 ---
 
-{% include vimeoPlayer.html id="37455050" %}
+{{< vimeo.html id="37455050" >}}
 
 The goal of Knuckledown is to be a tool that helps to calmly keep someone focused on the task at hand. Users are encouraged to break down one specific task, like writing a paper, into the various tasks that are inferred from the traditional one line on a To-Do list.
 

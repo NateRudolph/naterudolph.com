@@ -691,15 +691,18 @@ hr {
 */
 .blog-list {
   line-height: 21px;
-  margin: 15px auto; }
+  margin: 45px auto; }
 
 .blog-list a {
   display: block;
   float: left;
-  width: 50%;
-  margin-bottom: 30px; }
+  width: 48%;
+  margin: 0 1% 30px 1%; }
   .blog-list a:hover .blog-list__title {
     text-decoration: underline; }
+  @media only screen and (max-width: 800px) {
+    .blog-list a {
+      width: 100%; } }
 
 .blog-list__date,
 .blog-list__title {
@@ -718,7 +721,14 @@ hr {
   margin-bottom: 7.5px; }
 
 .blog-list__summary {
-  color: #2c2c2c; }
+  color: #2c2c2c;
+  font-size: 0.85em;
+  opacity: 0.75; }
+  .blog-list__summary:hover, .blog-list__summary:focus {
+    opacity: 1; }
+  @media only screen and (max-width: 800px) {
+    .blog-list__summary {
+      display: none; } }
 
 /*
   List 6 categories with thumbnails
@@ -777,6 +787,9 @@ hr {
   max-width: 1200px;
   margin: 0 auto; }
 
+.clearfix {
+  clear: both; }
+
 .featured__item {
   position: relative;
   float: left;
@@ -818,7 +831,17 @@ hr {
 .single-page-content {
   width: 85%;
   max-width: 1200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 15px; }
+
+.single-page__title {
+  font-family: "Playfair Display";
+  margin: 0; }
+
+.single-page__date {
+  font-family: "Raleway";
+  font-size: 1em;
+  margin-bottom: 15px; }
 
 .list-container {
   width: 85%;

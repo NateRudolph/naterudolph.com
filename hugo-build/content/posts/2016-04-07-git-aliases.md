@@ -2,7 +2,6 @@
 title: 'Git Aliases'
 date: 2018-02-03T23:27:13-05:00
 categories: [code, video]
-showOnBlogRoll: false
 featuredImage: "test.jpg"
 excerpt: "It's been my experience that with most new things you learn, even if it's a gradual process, there's a distinct moment when it all clicks..."
 ---

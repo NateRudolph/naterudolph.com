@@ -2,10 +2,10 @@
 title: '2017 Reading List'
 date: 2017-01-01T23:27:13-05:00
 categories: [writing]
-featuredImage: "test.jpg"
+excerpt: "I typically keep New Year's resolutions vague to free my late February conscious from the crushing weight of disappointment."
 ---
 
-I've typically kept New Year's resolutions vague to free my late February conscious from the crushing weight of disappointment. But for whatever reason 2017 I decided to commit to reading at least one book a month. I think because it happened to coincide with a slow retreat from all forms of social media it has actually turned out to be pretty successful.
+I typically keep New Year's resolutions vague to free my late February conscious from the crushing weight of disappointment. But for whatever reason 2017 I decided to commit to reading at least one book a month. I think because it happened to coincide with a slow retreat from all forms of social media it has actually turned out to be pretty successful.
 
 {{< image src="call-of-the-wild-book-cover.jpg" layout="media--left">}}
 # Call of the Wild

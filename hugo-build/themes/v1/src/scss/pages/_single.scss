@@ -1,3 +1,15 @@
 .single-page-content {
     @include tube-of-content();
+    padding-top: $base-vertical-margin;
+}
+
+.single-page__title {
+    font-family: "Playfair Display";
+    margin: 0;
+}
+
+.single-page__date {
+    font-family: "Raleway";
+    font-size: 1em;
+    margin-bottom: $base-vertical-margin;
 }
