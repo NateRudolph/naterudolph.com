@@ -1,6 +1,6 @@
 ---
-layout: single-article
 title: 'Early Vision Tests'
+date: 2012-05-22T13:10:12-04:00
 categories: [code]
 promo: true
 featuredImage: early-vision-tests.jpg
