@@ -1,4 +1,3 @@
 .single-page-content {
-    width: 50%;
-    margin: 0 auto;
+    @include tube-of-content();
 }

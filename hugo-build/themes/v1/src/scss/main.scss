@@ -8,11 +8,11 @@
 // Vendor Styles
 @import "vendor/normalize";
 @import "vendor/flickity";
-@import "utils/fonts";
 
 // Base Styles and utilities
-@import "base/base";
+@import "utils/fonts";
 @import "utils/utils";
+@import "base/base";
 
 // Module Styles
 @import "modules/modules";

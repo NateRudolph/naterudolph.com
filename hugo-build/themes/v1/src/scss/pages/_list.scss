@@ -1,0 +1,10 @@
+.list-container {
+    @include tube-of-content();
+}
+
+.list-container__banner {
+    width: 100%;
+    max-height: 10vh;
+    color: white;
+    text-align: center;
+}

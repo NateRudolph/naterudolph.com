@@ -2,8 +2,7 @@
 layout: single-article
 title: "Life in Marvelous Times: Typography Animation"
 categories: [video]
-promo: true
-featuredImage: hardware-category.jpg
+draft: true
 ---
 
-{{< vimeo id="53861298" >}}
+{% include vimeoPlayer.html align="center" id="53861298" %}

@@ -61,20 +61,20 @@ figcaption {
   transition: opacity 0.4s ease;
 }
 
-// @include media($large-screen-up) {
-//   .media.media--break-right {
-//     width: 50%;
-//     float: right;
-//     transform: translateX(50%);
-//     margin-left: calc(-25% + #{$base-spacing});
-//   }
-// }
+@media #{$large-screen-up} {
+  .media.media--break-right {
+    width: 50%;
+    float: right;
+    transform: translateX(50%);
+    margin-left: calc(-25% + #{$base-spacing});
+  }
+}
 
-// @include media($large-screen-up) {
-//   .media.media--break-left {
-//     width: 50%;
-//     float: left;
-//     transform: translateX(-50%);
-//     margin-right: calc(-25% + #{$base-spacing});
-//   }
-// }
+@media #{$large-screen-up} {
+  .media.media--break-left {
+    width: 50%;
+    float: left;
+    transform: translateX(-50%);
+    margin-right: calc(-25% + #{$base-spacing});
+  }
+}

@@ -2,11 +2,10 @@
 layout: single-article
 title: 'Early Vision Tests'
 categories: [code]
-promo: true
-featuredImage: early-vision-tests.jpg
+draft: true
 ---
 
-{{< vimeo id="42632017" >}}
+{% include vimeoPlayer.html id="42632017" %}
 
 Face tracking courtesy of [Kyle McDonald](http://github.com/kylemcdonald/FaceOSC-Templates)
 I made a few adjustments to the default Processing sketch he included and wrote in a fairly reliable way to see whether or not the subject's eyes are open. I then added that to a Processing game template [found here](http://openprocessing.org/sketch/17115)
