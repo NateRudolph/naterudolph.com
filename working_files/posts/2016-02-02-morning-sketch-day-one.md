@@ -5,4 +5,4 @@ categories: [sketches]
 draft: true
 ---
 
-{% include imageEmbed.html align="center" path="morningSketches/table.jpg" alt="Sketch of table" %}
+{{< image src="morningSketches/table.jpg" alt="Sketch of a table" layout="media--full" >}}

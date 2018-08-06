@@ -3,6 +3,7 @@ title: 'Batch rotation for video files'
 date: 2016-03-31T14:49:24-04:00
 categories: [code]
 featuredImage: "hand.jpg"
+excerpt: "I recently had a collection of videos I wanted to start editing that needed to be rotated by 180 degrees because they were shot on a Redrock lens..."
 tags: redrock, lens, ffmpeg, batch, video
 ---
 
@@ -26,7 +27,7 @@ done
 {{< /highlight >}}
 [(Link on Github)](https://gist.github.com/NateRudolph/b54f95c0f735df9af5194dd23990074e)
 
-Copy/paste the above snippet into a new file and save it with the ending ".sh" (Make sure to do that in a regular text editor not something like Word or Pages) Then you can move that file to the folder with all your videos you want to rotate. The script doesn't really have any logic built into it so it'll just blindly run the process on any .mov file in that directory. Which could take awhile if there are quite a few.
+Copy/paste the above snippet into a new file and save it with the ending `.sh`. Make sure to do that in a regular text editor not something like Word or Pages. Then you can move that file to the folder with all your videos you want to rotate. The script doesn't really have any logic built into it so it'll just blindly run the process on any .mov file in that directory. Which could take awhile if there are quite a few.
 
 To kick off the process you can open Terminal, move to that folder, and run the script by typing: `sh name-of-script.sh`
  

@@ -1,10 +1,20 @@
 .single-page-content {
     @include tube-of-content();
     padding-top: $base-vertical-margin;
+
+    color: #313131;
+}
+
+.single-page__back-btn {
+    position: fixed;
+    top: 25px;
+    left: 25px;
 }
 
 .single-page__title {
     font-family: "Playfair Display";
+    color: #1d1d1d;
+
     margin: 0;
 }
 

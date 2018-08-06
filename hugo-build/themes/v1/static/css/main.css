@@ -830,12 +830,19 @@ hr {
 
 .single-page-content {
   width: 85%;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto;
-  padding-top: 15px; }
+  padding-top: 15px;
+  color: #313131; }
+
+.single-page__back-btn {
+  position: fixed;
+  top: 25px;
+  left: 25px; }
 
 .single-page__title {
   font-family: "Playfair Display";
+  color: #1d1d1d;
   margin: 0; }
 
 .single-page__date {
@@ -845,8 +852,11 @@ hr {
 
 .list-container {
   width: 85%;
-  max-width: 1200px;
+  max-width: 800px;
   margin: 0 auto; }
+
+.list-container.blog-list a {
+  width: 100%; }
 
 .list-container__banner {
   width: 100%;
@@ -855,8 +865,7 @@ hr {
   text-align: center; }
 
 .highlight pre {
-  padding: 15px;
-  overflow: visible; }
+  padding: 15px; }
 
 .flickity-viewport {
   transition: height 0.5s ease;

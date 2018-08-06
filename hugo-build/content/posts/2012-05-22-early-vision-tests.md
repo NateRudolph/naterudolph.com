@@ -3,6 +3,7 @@ title: 'Early Vision Tests'
 date: 2012-05-22T13:10:12-04:00
 categories: [code]
 promo: true
+excerpt: "Face tracking courtesy of Kyle McDonald I made a few adjustments to the default Processing sketch he included and wrote in a fairly reliable way..." 
 featuredImage: early-vision-tests.jpg
 ---
 

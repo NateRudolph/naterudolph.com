@@ -1,5 +1,5 @@
 .home-page-content {
-  @include tube-of-content();
+  @include tube-of-content(1200px);
 }
 
 .clearfix { 

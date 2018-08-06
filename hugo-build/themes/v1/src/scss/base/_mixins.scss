@@ -1,5 +1,6 @@
-@mixin tube-of-content {
+@mixin tube-of-content($max-width: 800px) {
     width: 85%;
-    max-width: 1200px;
+
+    max-width: $max-width;
     margin: 0 auto;
   }
