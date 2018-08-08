@@ -843,12 +843,12 @@ hr {
 .single-page__title {
   font-family: "Playfair Display";
   color: #1d1d1d;
-  margin: 0; }
+  margin: 0 0 15px 0; }
 
 .single-page__date {
+  margin: 0;
   font-family: "Raleway";
-  font-size: 1em;
-  margin-bottom: 15px; }
+  font-size: 1em; }
 
 .list-background {
   position: fixed;
