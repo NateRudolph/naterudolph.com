@@ -851,7 +851,7 @@ hr {
   margin-bottom: 15px; }
 
 .list-background {
-  position: absolute;
+  position: fixed;
   width: 100vw;
   height: 100vh; }
 
@@ -865,7 +865,7 @@ hr {
   right: 0;
   padding: 0 30px;
   background-color: #f7f7f7;
-  height: calc(100vh - 5em); }
+  min-height: calc(100vh - 5em); }
 
 .list-container h1 {
   font-family: "Raleway";
