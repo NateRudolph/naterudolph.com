@@ -1,0 +1,6 @@
+<div class="carousel" data-flickity='{ "contain": true, "imagesLoaded": true, "percentPosition": true, "pageDots": false, "adaptiveHeight": true, "wrapAround": true }'>
+   {{ range .Params }} <img src='/img/{{ . }}' alt="">{{ end }}
+</div>
+
+<link rel="stylesheet" href="/css/vendor/flickity.css">
+<script src="/js/vendor/flickity.min.js"></script>
