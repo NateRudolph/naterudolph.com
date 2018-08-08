@@ -1,11 +1,8 @@
 ---
 title: "Logo Animation Music"
+date: 2010-12-29T09:31:12-04:00
 categories: [music]
 draft: true
 ---
 
-Here's a song:
-
-{% include soundcloudPlayer.html id="232621659" %}
-
-And a desrciption
+{{< soundcloud id="232621659" >}}
