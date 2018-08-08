@@ -1,7 +1,7 @@
 ---
 layout: single-article
 title: 'Morning Sketch: Bear Head'
-categories: [sketches]
+categories: [design]
 draft: true
 ---
 

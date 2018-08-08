@@ -1,19 +1,23 @@
-{{ partial "site-header.html" . }} {{ partial "header.html" . }}
-<div class="list-container blog-list">
+{{ partial "site-header.html" . }}
 
-  <div class="list-container__banner" style="background:url('{{ .Site.BaseURL }}/img/{{ .Title | lower }}-category.jpg'); background-size: cover;">
+<div class="list-background" style="background:url('{{ .Site.BaseURL }}img/{{ .Title | lower }}-category.jpg'); background-size: cover;"></div>
+
+<div class="list-container blog-list">
     <h1>{{ .Title }}</h1>
-  </div>
+  
   {{ range .Data.Pages }}
   <a href="{{.Permalink}}">
     <span class="blog-list__date">{{ .Date.Format "January 1"}}</span>
     <span class="blog-list__title">{{ .Title }}</span>
-
+    
     <span class="blog-list__summary">{{ .Params.excerpt }}</span>
   </a>
   {{ end }}
+  <div class="clearfix"></div>
   <p>
     <a href="{{ .Site.BaseURL }}">Home</a>
   </p>
 </div>
+
+
 {{ partial "footer.html" . }}

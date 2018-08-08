@@ -1,7 +1,7 @@
 ---
 layout: single-article
 title: 'Morning Sketch: Day One'
-categories: [sketches]
+categories: [design]
 draft: true
 ---
 

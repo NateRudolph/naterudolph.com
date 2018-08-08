@@ -1,8 +1,8 @@
 ---
-layout: single-article
 title: 'Morning Sketch: Character'
-categories: [sketches]
-draft: true
+date: 2016-02-10T09:31:12-04:00
+categories: [design]
+featuredImage: "morningSketches/character.jpg"
 ---
 
-{% include imageEmbed.html align="center" path="morningSketches/character.jpg" alt="Character Illustration" %}
+{{< image src="morningSketches/character.jpg" alt="Character Illustration" layout="media--full" >}}

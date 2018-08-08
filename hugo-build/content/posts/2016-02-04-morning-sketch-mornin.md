@@ -1,8 +1,7 @@
 ---
-layout: single-article
 title: "Morning Sketch: Mornin'"
-categories: [sketches]
-draft: true
+date: 2016-02-04T09:31:12-04:00
+categories: [design]
 ---
 
-{% include imageEmbed.html align="center" path="morningSketches/mornin.jpg" alt="Mornin'" %}
+{{< image path="morningSketches/mornin.jpg" alt="Mornin'" layout="media--full" >}}

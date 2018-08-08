@@ -1,7 +1,7 @@
 ---
 layout: single-article
 title: 'Morning Sketch: Abstract Logo'
-categories: [sketches]
+categories: [design]
 draft: true
 ---
 

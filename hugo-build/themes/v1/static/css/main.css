@@ -664,8 +664,8 @@ hr {
 .header__video-player {
   position: fixed;
   bottom: -50%;
-  left: 25%;
-  width: 50%;
+  left: 10%;
+  width: 80%;
   height: 50%;
   z-index: 10;
   transition: all 0.3s ease; }
@@ -850,18 +850,37 @@ hr {
   font-size: 1em;
   margin-bottom: 15px; }
 
+.list-background {
+  position: absolute;
+  width: 100vw;
+  height: 100vh; }
+
 .list-container {
   width: 85%;
   max-width: 800px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: absolute;
+  top: 5em;
+  left: 0;
+  right: 0;
+  padding: 0 30px;
+  background-color: #f7f7f7;
+  height: calc(100vh - 5em); }
+
+.list-container h1 {
+  font-family: "Raleway";
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: -2em;
+  margin-bottom: 1.5em;
+  color: white; }
 
 .list-container.blog-list a {
   width: 100%; }
 
 .list-container__banner {
-  width: 100%;
-  max-height: 10vh;
-  color: white;
+  min-height: 10vh;
   text-align: center; }
 
 .highlight pre {

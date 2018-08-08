@@ -1,8 +1,7 @@
 ---
-layout: single-article
 title: 'Morning Sketch: Sunrise'
-categories: [sketches]
-draft: true
+date: 2016-02-03T09:31:12-04:00
+categories: [design]
 ---
 
-{% include imageEmbed.html align="center" path="morningSketches/sunrise.jpg" alt="Water color sketch" %}
+{{< image src="morningSketches/sunrise.jpg" alt="Water color sketch" layout="media--full" >}}
