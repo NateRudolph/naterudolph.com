@@ -16,7 +16,6 @@
 .header__title {
   display: inline-block;
   position: absolute;
-  padding-top: 28px;
   padding-left: 20px;
 }
 
@@ -68,9 +67,20 @@
   transition: all 0.3s ease;
 }
 
+@media #{$small-screen} {
+  .header__title {
+    padding-top: 15px;
+    font-size: 1.6em;
+  }
+}
+
 @media #{$medium-screen-up} {
   .header {
-    width: 50%;
+    width: 60%;
+  }
+  .header__title {
+    padding-top: 10px;
+    font-size: 1.8em;
   }
 }
 

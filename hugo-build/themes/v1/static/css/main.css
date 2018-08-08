@@ -629,7 +629,6 @@ hr {
 .header__title {
   display: inline-block;
   position: absolute;
-  padding-top: 28px;
   padding-left: 20px; }
 
 .header__video-link {
@@ -674,9 +673,17 @@ hr {
   bottom: 25%;
   transition: all 0.3s ease; }
 
+@media only screen and (max-width: 800px) {
+  .header__title {
+    padding-top: 15px;
+    font-size: 1.6em; } }
+
 @media only screen and (min-width: 801px) and (max-width: 1600px) {
   .header {
-    width: 50%; } }
+    width: 60%; }
+  .header__title {
+    padding-top: 10px;
+    font-size: 1.8em; } }
 
 @media only screen and (min-width: 1601px) {
   .header {
