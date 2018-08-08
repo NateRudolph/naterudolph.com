@@ -9,6 +9,4 @@ draft: true
 
 Intro for a promotional video put together for a local ad agency. The video was designed to help small business owners see how this agency could help them communicate their strengths to prospective customers. Created in After Effects.
 
-{{< image src="ad-agency-sketch-1.jpg" layout="media--left" >}}
-{{< image src="ad-agency-sketch-2.jpg" layout="media--right" >}}
-{{< image src="ad-agency-sketch-3.jpg" layout="media--full" >}}
+{{< gallery "ad-agency-sketch-1.jpg" "ad-agency-sketch-2.jpg" "ad-agency-sketch-3.jpg" >}}
