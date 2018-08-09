@@ -6,12 +6,11 @@
     {{ range .Data.Pages }} {{ if .Params.promo }}
     <a href="{{.Permalink}}">
       <div class="featured__item">
-        <div class="featured__title-wrapper">
-          <!-- <div class="featured__title">
-            <span>{{.Title}}</span>
-          </div> -->
-        </div>
         <img src="./img/{{ .Params.featuredImage }}" alt="">
+        <div class="featured__wrapper">
+          <div class="featured__title">{{.Title}}</div>
+          <div class="featured__excerpt">{{ .Params.promoText }}</div>
+        </div>
       </div>
     </a>
     {{ end }} {{ end }}

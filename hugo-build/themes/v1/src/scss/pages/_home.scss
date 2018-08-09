@@ -12,35 +12,39 @@
 
   width: 100%;
 
-  margin-bottom: $base-vertical-margin;
+  margin-bottom: $base-vertical-margin * 2;
+  box-shadow: 3px 3px 15px rgba(0,0,0,0.15);
+  transition: transform 0.6s ease;
+  &:hover, &:focus {
+    transform: scale(1.03);
+  }
 }
 
 .featured__item img {
   width: 100%;
 }
 
-.featured__title-wrapper {
+.featured__wrapper {
   width: 100%;
-  position: absolute;
-  top: -$base-font-size + 5px;
+  padding: 0 30px;
 }
 
 .featured__title {
   font-family: "Raleway";
   font-weight: 600;
-  font-size: $base-font-size;
+  font-size: 1em;
   color: $black;
-  text-transform: uppercase;
-  text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 5px;
+}
 
-  display: block;
-
-  span {
-    background-color: $blue;
-    padding: 5px;
-    font-size: 2em;
-  }
+.featured__excerpt {
+  font-family: "PlayfairDisplay";
+  font-size: 1em;
+  line-height: 1.5em;
+  color: $black;
+  
+  margin-bottom: 10px;
 }
 
 @media #{$medium-screen-up} {
