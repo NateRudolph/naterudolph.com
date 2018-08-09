@@ -760,6 +760,8 @@ hr {
   transition: all 0.3s ease; }
   .category-list__item::after {
     content: "";
+    -ms-flex: auto;
+        flex: auto;
     display: block;
     padding-bottom: 100%; }
   .category-list__item:hover {
@@ -769,7 +771,8 @@ hr {
 
 @media only screen and (min-width: 801px) and (max-width: 1600px) {
   .category-list__item {
-    width: 30%; } }
+    width: 30%;
+    margin: 1%; } }
 
 @media only screen and (min-width: 1601px) {
   .category-list__item {
@@ -782,8 +785,8 @@ hr {
   padding-top: 38%;
   font-family: "Raleway";
   font-weight: 600;
-  letter-spacing: 0.15em;
-  font-size: 1em;
+  letter-spacing: 0.05em;
+  font-size: 1.4em;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
