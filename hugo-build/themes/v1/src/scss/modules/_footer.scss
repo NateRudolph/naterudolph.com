@@ -1,0 +1,17 @@
+.social-links {
+  width: 160px;
+  margin: 30px auto;
+
+  display: flex;
+
+  a {
+    flex: 1;
+    margin: 0 4%;
+    opacity: 0.2;
+    transition: opacity 0.3s ease;
+  }
+
+  a:hover, a:focus {
+    opacity: 0.4;
+  }
+}
