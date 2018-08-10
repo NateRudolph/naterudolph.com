@@ -16,6 +16,7 @@ There is!
 {{< highlight sh >}}
 #!/bin/bash
 # by Nate Rudolph
+# [Github](https://gist.github.com/NateRudolph/b54f95c0f735df9af5194dd23990074e)
 # Uses ffmpeg to rotate a collection of videos (mov) by 180 degrees
 # Loop through all movs in current directory
 for vid in \*.mov ; do
@@ -25,7 +26,6 @@ newfilename=${vid%.\*}\_r.mp4
 ffmpeg -i $vid -vf "rotate=PI:bilinear=0" $newfilename
 done
 {{< /highlight >}}
-[(Link on Github)](https://gist.github.com/NateRudolph/b54f95c0f735df9af5194dd23990074e)
 
 Copy/paste the above snippet into a new file and save it with the ending `.sh`. Make sure to do that in a regular text editor not something like Word or Pages. Then you can move that file to the folder with all your videos you want to rotate. The script doesn't really have any logic built into it so it'll just blindly run the process on any .mov file in that directory. Which could take awhile if there are quite a few.
 
