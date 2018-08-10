@@ -1,5 +1,6 @@
 ---
 title: 'Fish Freedom'
+date: 2012-05-13T09:31:12-04:00
 categories: [hardware]
 promo: "A mobile platform that allows a pet fish to control its movements across an environment"
 featuredImage: "fish-freedom-banner.jpg"
