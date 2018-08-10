@@ -848,7 +848,10 @@ hr {
   max-width: 800px;
   margin: 0 auto;
   padding-top: 15px;
+  font-family: "Playfair Display";
   color: #313131; }
+  .single-page-content p {
+    font-size: 18px; }
 
 .single-page__back-btn {
   position: fixed;

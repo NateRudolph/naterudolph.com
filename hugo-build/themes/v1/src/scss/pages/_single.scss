@@ -2,7 +2,11 @@
     @include tube-of-content();
     padding-top: $base-vertical-margin;
 
+    font-family: "Playfair Display";
     color: #313131;
+    p {
+        font-size: 18px;
+    }
 }
 
 .single-page__back-btn {
