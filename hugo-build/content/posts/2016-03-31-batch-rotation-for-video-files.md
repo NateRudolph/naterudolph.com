@@ -31,6 +31,6 @@ Copy/paste the above snippet into a new file and save it with the ending `.sh`. 
 
 To kick off the process you can open Terminal, move to that folder, and run the script by typing: `sh name-of-script.sh`
  
-This assumes you have ffmpeg installed, which can be done relatively easily with something like Homebrew. Check out [this link](http://www.renevolution.com/how-to-install-ffmpeg-on-mac-os-x/) if none of that makes sense.
+This assumes you have ffmpeg installed, which can be done relatively easily with something like Homebrew. Check out [this link](https://www.oodlestechnologies.com/blogs/Easiest-Way-To-Install-FFmpeg-On-Mac-OS-X) if none of that makes sense.
 
 Enjoy!
