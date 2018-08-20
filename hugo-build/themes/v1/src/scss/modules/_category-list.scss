@@ -31,10 +31,11 @@
 
   &:hover {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    transform: scale(1.03);
   }
 
   &:hover .category-list__item-title {
-    letter-spacing: 0.08em;
+    opacity: 1;
   }
 }
 
@@ -60,11 +61,12 @@
   font-family: "Raleway";
   font-weight: 600;
   letter-spacing: 0.05em;
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: $white;
 
   text-transform: uppercase;
   text-align: center;
 
   transition: all 0.3s ease;
+  opacity: 0.75;
 }
