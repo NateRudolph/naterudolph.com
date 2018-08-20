@@ -629,6 +629,8 @@ hr {
 .header__title {
   display: inline-block;
   position: absolute;
+  font-size: 1.5em;
+  padding-top: 20px;
   padding-left: 20px; }
 
 .header__video-link {
@@ -676,14 +678,14 @@ hr {
 @media only screen and (max-width: 800px) {
   .header__title {
     padding-top: 15px;
-    font-size: 1.6em; } }
+    font-size: 1.4em; } }
 
 @media only screen and (min-width: 801px) and (max-width: 1600px) {
   .header {
     width: 60%; }
   .header__title {
     padding-top: 10px;
-    font-size: 1.8em; } }
+    font-size: 1.6em; } }
 
 @media only screen and (min-width: 1601px) {
   .header {
@@ -765,9 +767,11 @@ hr {
     display: block;
     padding-bottom: 100%; }
   .category-list__item:hover {
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5); }
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    -ms-transform: scale(1.03);
+        transform: scale(1.03); }
   .category-list__item:hover .category-list__item-title {
-    letter-spacing: 0.08em; }
+    opacity: 1; }
 
 @media only screen and (min-width: 801px) and (max-width: 1600px) {
   .category-list__item {
@@ -786,11 +790,12 @@ hr {
   font-family: "Raleway";
   font-weight: 600;
   letter-spacing: 0.05em;
-  font-size: 1.4em;
+  font-size: 1.2em;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
-  transition: all 0.3s ease; }
+  transition: all 0.3s ease;
+  opacity: 0.75; }
 
 .social-links {
   width: 160px;
